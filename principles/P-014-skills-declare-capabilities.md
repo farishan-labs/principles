@@ -4,6 +4,7 @@ slug: skills-declare-capabilities
 title: Skills declare their capabilities
 version: 1.2.0
 tags: [agent, skills, capabilities]
+tier: core
 ---
 
 # P-014 — Skills declare their capabilities

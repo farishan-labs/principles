@@ -4,6 +4,7 @@ slug: manual-keys-no-signup
 title: Keys are manual; never sign up on behalf of the user
 version: 1.2.0
 tags: [auth, consent, forager]
+tier: extended
 ---
 
 # P-019 — Keys are manual; never sign up on behalf of the user

@@ -4,6 +4,7 @@ slug: no-secrets-in-shared-memory
 title: Never store secrets in shared memory
 version: 1.2.0
 tags: [security, memory, secrets]
+tier: extended
 ---
 
 # P-015 — Never store secrets in shared memory

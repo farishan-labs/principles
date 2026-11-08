@@ -4,6 +4,7 @@ slug: single-static-binary
 title: Single static binary
 version: 1.0.0
 tags: [distribution, go, no-cgo, no-runtime-deps]
+tier: top
 ---
 
 # P-005 — Single static binary

@@ -4,6 +4,7 @@ slug: never-reinvent-exact-wheels
 title: Never reinvent exact wheels
 version: 1.0.0
 tags: [reuse, composition, anti-nih]
+tier: top
 ---
 
 # P-001 — Never reinvent exact wheels

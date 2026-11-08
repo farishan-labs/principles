@@ -4,6 +4,7 @@ slug: graceful-degradation
 title: Degrade gracefully
 version: 1.2.0
 tags: [robustness, capabilities, fallback]
+tier: core
 ---
 
 # P-022 — Degrade gracefully

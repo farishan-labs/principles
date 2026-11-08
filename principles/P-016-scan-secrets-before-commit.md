@@ -4,6 +4,7 @@ slug: scan-secrets-before-commit
 title: Scan for secrets before committing
 version: 1.2.0
 tags: [security, git, secrets]
+tier: extended
 ---
 
 # P-016 — Scan for secrets before committing

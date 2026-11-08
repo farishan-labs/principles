@@ -4,6 +4,7 @@ slug: research-before-new-repo
 title: Research before creating a new repo
 version: 1.1.0
 tags: [research-gate, reuse, graduation]
+tier: extended
 ---
 
 # P-011 — Research before creating a new repo

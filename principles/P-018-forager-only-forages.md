@@ -4,6 +4,7 @@ slug: forager-only-forages
 title: Forager only forages
 version: 1.2.0
 tags: [scope, forager, single-responsibility]
+tier: extended
 ---
 
 # P-018 — Forager only forages

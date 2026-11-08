@@ -4,6 +4,22 @@ All notable changes to the Faris Han Labs principles set are documented here.
 Versioning follows [SemVer](https://semver.org/): MAJOR for rewording/removal
 that breaks downstream consumers, MINOR for additions, PATCH for clarifications.
 
+## [1.3.0] - 2026-11-08
+
+### Added
+- Three-tier model (top / core / extended) for principles, with a `tier` field
+  in frontmatter and manifest.
+- `TOP_PRINCIPLES.md`: derived, llms.txt-shaped view of the 6 top-tier
+  principles, one line each, plus a grouped index of all 22 and an Optional
+  section. Target < 2 KB for cheap agent loading.
+- `scripts/render-top.sh`: regenerates `TOP_PRINCIPLES.md`.
+- `docs/PRINCIPLES_FORMAT_RESEARCH.md`: research on best format for top-most
+  principles for human + AI review.
+
+### Changed
+- `scripts/validate.sh` now checks tier values, tier consistency between
+  frontmatter and manifest, and top-tier count (3-7).
+
 ## [1.2.0] - 2026-11-08
 
 ### Added

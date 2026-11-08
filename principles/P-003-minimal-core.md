@@ -4,6 +4,7 @@ slug: minimal-core
 title: Minimal core
 version: 1.0.0
 tags: [minimalism, extensions, herdr-core]
+tier: top
 ---
 
 # P-003 — Minimal core

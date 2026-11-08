@@ -4,6 +4,7 @@ slug: durable-changes-announced
 title: Durable changes are announced
 version: 1.2.0
 tags: [coordination, memory, communication]
+tier: core
 ---
 
 # P-017 — Durable changes are announced

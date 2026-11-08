@@ -4,6 +4,7 @@ slug: research-gate-before-code
 title: Research gate before feature code
 version: 1.2.0
 tags: [research, reuse, prior-art]
+tier: extended
 ---
 
 # P-021 — Research gate before feature code

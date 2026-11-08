@@ -4,6 +4,7 @@ slug: open-and-shared
 title: Open and shared
 version: 1.0.0
 tags: [open-source, apache-2.0, forking]
+tier: top
 ---
 
 # P-006 — Open and shared

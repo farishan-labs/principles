@@ -4,6 +4,7 @@ slug: programmable-extensions
 title: Programmable extensions, not toggles
 version: 1.0.0
 tags: [extensions, programmability, manifests]
+tier: top
 ---
 
 # P-004 — Programmable extensions, not toggles

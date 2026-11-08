@@ -4,6 +4,7 @@ slug: reliability-over-novelty
 title: Reliability over novelty
 version: 1.0.0
 tags: [reliability, daily-use, quality]
+tier: core
 ---
 
 # P-008 — Reliability over novelty

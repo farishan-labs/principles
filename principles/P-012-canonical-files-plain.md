@@ -4,6 +4,7 @@ slug: canonical-files-plain
 title: Canonical files are plain markdown/JSON
 version: 1.2.0
 tags: [agent, portability, canonical]
+tier: core
 ---
 
 # P-012 — Canonical files are plain markdown/JSON

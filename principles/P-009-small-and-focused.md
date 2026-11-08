@@ -4,6 +4,7 @@ slug: small-and-focused
 title: Small and focused
 version: 1.0.0
 tags: [scope, composition, single-responsibility]
+tier: core
 ---
 
 # P-009 — Small and focused

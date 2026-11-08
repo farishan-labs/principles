@@ -4,6 +4,7 @@ slug: zero-vendor-lock-in
 title: Zero vendor lock-in
 version: 1.0.0
 tags: [portability, open-formats, self-hostable]
+tier: top
 ---
 
 # P-002 — Zero vendor lock-in

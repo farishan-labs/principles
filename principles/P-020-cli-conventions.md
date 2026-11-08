@@ -4,6 +4,7 @@ slug: cli-conventions
 title: CLIs follow open conventions
 version: 1.2.0
 tags: [cli, conventions, ux]
+tier: core
 ---
 
 # P-020 — CLIs follow open conventions
