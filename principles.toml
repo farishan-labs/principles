@@ -1,0 +1,82 @@
+# Faris Han Labs — canonical principles manifest.
+#
+# Source of truth: https://github.com/farishan-labs/principles
+# This file is the machine-readable index. Keep in sync with principles/P-*.md.
+# Cockpit and other consumers derive their PRINCIPLES.md from this repo.
+
+[meta]
+name = "Faris Han Labs Principles"
+version = "1.0.0"
+license = "Apache-2.0"
+source = "https://github.com/farishan-labs/principles"
+description = "Non-negotiable principles applying to cockpit and every tool built under the lab."
+
+[[principle]]
+id = "P-001"
+slug = "never-reinvent-exact-wheels"
+title = "Never reinvent exact wheels"
+tags = ["reuse", "composition", "anti-nih"]
+file = "principles/P-001-never-reinvent-exact-wheels.md"
+
+[[principle]]
+id = "P-002"
+slug = "zero-vendor-lock-in"
+title = "Zero vendor lock-in"
+tags = ["portability", "open-formats", "self-hostable"]
+file = "principles/P-002-zero-vendor-lock-in.md"
+
+[[principle]]
+id = "P-003"
+slug = "minimal-core"
+title = "Minimal core"
+tags = ["minimalism", "extensions", "herdr-core"]
+file = "principles/P-003-minimal-core.md"
+
+[[principle]]
+id = "P-004"
+slug = "programmable-extensions"
+title = "Programmable extensions, not toggles"
+tags = ["extensions", "programmability", "manifests"]
+file = "principles/P-004-programmable-extensions.md"
+
+[[principle]]
+id = "P-005"
+slug = "single-static-binary"
+title = "Single static binary"
+tags = ["distribution", "go", "no-cgo", "no-runtime-deps"]
+file = "principles/P-005-single-static-binary.md"
+
+[[principle]]
+id = "P-006"
+slug = "open-and-shared"
+title = "Open and shared"
+tags = ["open-source", "apache-2.0", "forking"]
+file = "principles/P-006-open-and-shared.md"
+
+[[principle]]
+id = "P-007"
+slug = "reuse-before-build"
+title = "Reuse before build"
+tags = ["reuse", "research-gate", "composition"]
+file = "principles/P-007-reuse-before-build.md"
+
+[[principle]]
+id = "P-008"
+slug = "reliability-over-novelty"
+title = "Reliability over novelty"
+tags = ["reliability", "daily-use", "quality"]
+file = "principles/P-008-reliability-over-novelty.md"
+
+[[principle]]
+id = "P-009"
+slug = "small-and-focused"
+title = "Small and focused"
+tags = ["scope", "composition", "single-responsibility"]
+file = "principles/P-009-small-and-focused.md"
+
+[[principle]]
+id = "P-010"
+slug = "human-sets-direction-agents-execute"
+title = "Human sets direction, agents execute"
+tags = ["human-in-the-loop", "agents", "control-plane"]
+file = "principles/P-010-human-sets-direction-agents-execute.md"

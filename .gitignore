@@ -1,0 +1,7 @@
+# Binaries / OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local
+*.log
