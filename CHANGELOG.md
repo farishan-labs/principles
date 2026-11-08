@@ -4,6 +4,11 @@ All notable changes to the Faris Han Labs principles set are documented here.
 Versioning follows [SemVer](https://semver.org/): MAJOR for rewording/removal
 that breaks downstream consumers, MINOR for additions, PATCH for clarifications.
 
+## [1.1.0] - 2026-11-08
+
+### Added
+- P-011 — Research before creating a new repo (research gate / graduation rule).
+
 ## [1.0.0] - 2026-11-08
 
 ### Added

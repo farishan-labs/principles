@@ -80,3 +80,10 @@ slug = "human-sets-direction-agents-execute"
 title = "Human sets direction, agents execute"
 tags = ["human-in-the-loop", "agents", "control-plane"]
 file = "principles/P-010-human-sets-direction-agents-execute.md"
+
+[[principle]]
+id = "P-011"
+slug = "research-before-new-repo"
+title = "Research before creating a new repo"
+tags = ["research-gate", "reuse", "graduation"]
+file = "principles/P-011-research-before-new-repo.md"
