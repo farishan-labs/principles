@@ -87,3 +87,80 @@ slug = "research-before-new-repo"
 title = "Research before creating a new repo"
 tags = ["research-gate", "reuse", "graduation"]
 file = "principles/P-011-research-before-new-repo.md"
+
+[[principle]]
+id = "P-012"
+slug = "canonical-files-plain"
+title = "Canonical files are plain markdown/JSON"
+tags = ["agent", "portability", "canonical"]
+file = "principles/P-012-canonical-files-plain.md"
+
+[[principle]]
+id = "P-013"
+slug = "adapters-only-harness-aware"
+title = "Adapters are the only harness-aware code"
+tags = ["agent", "adapters", "separation"]
+file = "principles/P-013-adapters-only-harness-aware.md"
+
+[[principle]]
+id = "P-014"
+slug = "skills-declare-capabilities"
+title = "Skills declare their capabilities"
+tags = ["agent", "skills", "capabilities"]
+file = "principles/P-014-skills-declare-capabilities.md"
+
+[[principle]]
+id = "P-015"
+slug = "no-secrets-in-shared-memory"
+title = "Never store secrets in shared memory"
+tags = ["security", "memory", "secrets"]
+file = "principles/P-015-no-secrets-in-shared-memory.md"
+
+[[principle]]
+id = "P-016"
+slug = "scan-secrets-before-commit"
+title = "Scan for secrets before committing"
+tags = ["security", "git", "secrets"]
+file = "principles/P-016-scan-secrets-before-commit.md"
+
+[[principle]]
+id = "P-017"
+slug = "durable-changes-announced"
+title = "Durable changes are announced"
+tags = ["coordination", "memory", "communication"]
+file = "principles/P-017-durable-changes-announced.md"
+
+[[principle]]
+id = "P-018"
+slug = "forager-only-forages"
+title = "Forager only forages"
+tags = ["scope", "forager", "single-responsibility"]
+file = "principles/P-018-forager-only-forages.md"
+
+[[principle]]
+id = "P-019"
+slug = "manual-keys-no-signup"
+title = "Keys are manual; never sign up on behalf of the user"
+tags = ["auth", "consent", "forager"]
+file = "principles/P-019-manual-keys-no-signup.md"
+
+[[principle]]
+id = "P-020"
+slug = "cli-conventions"
+title = "CLIs follow open conventions"
+tags = ["cli", "conventions", "ux"]
+file = "principles/P-020-cli-conventions.md"
+
+[[principle]]
+id = "P-021"
+slug = "research-gate-before-code"
+title = "Research gate before feature code"
+tags = ["research", "reuse", "prior-art"]
+file = "principles/P-021-research-gate-before-code.md"
+
+[[principle]]
+id = "P-022"
+slug = "graceful-degradation"
+title = "Degrade gracefully"
+tags = ["robustness", "capabilities", "fallback"]
+file = "principles/P-022-graceful-degradation.md"
