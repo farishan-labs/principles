@@ -4,6 +4,23 @@ All notable changes to the Faris Han Labs principles set are documented here.
 Versioning follows [SemVer](https://semver.org/): MAJOR for rewording/removal
 that breaks downstream consumers, MINOR for additions, PATCH for clarifications.
 
+## [1.3.1] - 2026-11-10
+
+### Changed
+- Added a `group` field to each principle's frontmatter and to `principles.toml`
+  (10 themes), so render/validate are data-driven instead of hardcoded id lists.
+- `render-top.sh` now derives group membership and counts from principle files
+  (no more hardcoded "22 principles" or group id lists).
+- `validate.sh` now parses `principles.toml` with `tomllib`/`tomli` (no
+  hand-parsing), checks tier + group consistency, manifest file paths, and the
+  top-tier count (3-7).
+- `VERSION` is now the single source of truth for the version; removed
+  `version` from `principles.toml` `[meta]` (validate fails if it reappears).
+
+### Added
+- `.github/workflows/validate.yml`: CI runs validate + render + render-top and
+  fails if derived files are out of date.
+
 ## [1.3.0] - 2026-11-08
 
 ### Added

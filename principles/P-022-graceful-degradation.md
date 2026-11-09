@@ -5,6 +5,7 @@ title: Degrade gracefully
 version: 1.2.0
 tags: [robustness, capabilities, fallback]
 tier: core
+group: Portability & lock-in
 ---
 
 # P-022 — Degrade gracefully

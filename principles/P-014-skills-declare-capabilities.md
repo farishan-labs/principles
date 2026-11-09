@@ -5,6 +5,7 @@ title: Skills declare their capabilities
 version: 1.2.0
 tags: [agent, skills, capabilities]
 tier: core
+group: Agent capabilities
 ---
 
 # P-014 — Skills declare their capabilities

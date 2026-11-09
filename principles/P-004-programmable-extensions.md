@@ -5,6 +5,7 @@ title: Programmable extensions, not toggles
 version: 1.0.0
 tags: [extensions, programmability, manifests]
 tier: top
+group: Minimalism & scope
 ---
 
 # P-004 — Programmable extensions, not toggles

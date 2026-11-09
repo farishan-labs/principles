@@ -5,6 +5,7 @@ title: Research gate before feature code
 version: 1.2.0
 tags: [research, reuse, prior-art]
 tier: extended
+group: Reuse & research
 ---
 
 # P-021 — Research gate before feature code

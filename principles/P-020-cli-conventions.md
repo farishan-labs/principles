@@ -5,6 +5,7 @@ title: CLIs follow open conventions
 version: 1.2.0
 tags: [cli, conventions, ux]
 tier: core
+group: CLI
 ---
 
 # P-020 — CLIs follow open conventions

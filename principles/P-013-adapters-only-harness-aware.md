@@ -5,6 +5,7 @@ title: Adapters are the only harness-aware code
 version: 1.2.0
 tags: [agent, adapters, separation]
 tier: core
+group: Portability & lock-in
 ---
 
 # P-013 — Adapters are the only harness-aware code

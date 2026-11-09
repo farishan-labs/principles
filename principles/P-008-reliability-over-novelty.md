@@ -5,6 +5,7 @@ title: Reliability over novelty
 version: 1.0.0
 tags: [reliability, daily-use, quality]
 tier: core
+group: Reliability & control
 ---
 
 # P-008 — Reliability over novelty

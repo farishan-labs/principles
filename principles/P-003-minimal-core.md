@@ -5,6 +5,7 @@ title: Minimal core
 version: 1.0.0
 tags: [minimalism, extensions, herdr-core]
 tier: top
+group: Minimalism & scope
 ---
 
 # P-003 — Minimal core

@@ -4,7 +4,7 @@ Canonical source: https://github.com/farishan-labs/principles
 This file is **derived**. Regenerate with `scripts/render-top.sh`.
 Full set (22 principles): see `PRINCIPLES.md`.
 
-> The non-negotiables. Six principles that govern everything built under
+> The non-negotiables. The top-tier principles that govern everything built under
 > the lab. If a decision conflicts with one of these, the principle wins.
 > Load this file first; reach for `PRINCIPLES.md` only when you need
 > rationale, examples, or the specialised rules.
@@ -34,6 +34,6 @@ Full set (22 principles): see `PRINCIPLES.md`.
 ## Optional (secondary)
 
 - Full rationale, examples, applies-to: `PRINCIPLES.md`
-- Machine-readable index (ids, titles, tags, tiers, files): `principles.toml`
+- Machine-readable index (ids, titles, tags, tiers, groups, files): `principles.toml`
 - Change history: `CHANGELOG.md`
 - Validation: `scripts/validate.sh`

@@ -5,6 +5,7 @@ title: Open and shared
 version: 1.0.0
 tags: [open-source, apache-2.0, forking]
 tier: top
+group: Distribution
 ---
 
 # P-006 — Open and shared

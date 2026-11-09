@@ -6,10 +6,10 @@
 
 [meta]
 name = "Faris Han Labs Principles"
-version = "1.0.0"
 license = "Apache-2.0"
 source = "https://github.com/farishan-labs/principles"
 description = "Non-negotiable principles applying to cockpit and every tool built under the lab."
+# version lives in VERSION (single source of truth); validate.sh checks consistency.
 
 [[principle]]
 id = "P-001"
@@ -17,6 +17,7 @@ slug = "never-reinvent-exact-wheels"
 title = "Never reinvent exact wheels"
 tags = ["reuse", "composition", "anti-nih"]
 tier = "top"
+group = "Reuse & research"
 file = "principles/P-001-never-reinvent-exact-wheels.md"
 
 [[principle]]
@@ -25,6 +26,7 @@ slug = "zero-vendor-lock-in"
 title = "Zero vendor lock-in"
 tags = ["portability", "open-formats", "self-hostable"]
 tier = "top"
+group = "Portability & lock-in"
 file = "principles/P-002-zero-vendor-lock-in.md"
 
 [[principle]]
@@ -33,6 +35,7 @@ slug = "minimal-core"
 title = "Minimal core"
 tags = ["minimalism", "extensions", "herdr-core"]
 tier = "top"
+group = "Minimalism & scope"
 file = "principles/P-003-minimal-core.md"
 
 [[principle]]
@@ -41,6 +44,7 @@ slug = "programmable-extensions"
 title = "Programmable extensions, not toggles"
 tags = ["extensions", "programmability", "manifests"]
 tier = "top"
+group = "Minimalism & scope"
 file = "principles/P-004-programmable-extensions.md"
 
 [[principle]]
@@ -49,6 +53,7 @@ slug = "single-static-binary"
 title = "Single static binary"
 tags = ["distribution", "go", "no-cgo", "no-runtime-deps"]
 tier = "top"
+group = "Distribution"
 file = "principles/P-005-single-static-binary.md"
 
 [[principle]]
@@ -57,6 +62,7 @@ slug = "open-and-shared"
 title = "Open and shared"
 tags = ["open-source", "apache-2.0", "forking"]
 tier = "top"
+group = "Distribution"
 file = "principles/P-006-open-and-shared.md"
 
 [[principle]]
@@ -65,6 +71,7 @@ slug = "reuse-before-build"
 title = "Reuse before build"
 tags = ["reuse", "research-gate", "composition"]
 tier = "core"
+group = "Reuse & research"
 file = "principles/P-007-reuse-before-build.md"
 
 [[principle]]
@@ -73,6 +80,7 @@ slug = "reliability-over-novelty"
 title = "Reliability over novelty"
 tags = ["reliability", "daily-use", "quality"]
 tier = "core"
+group = "Reliability & control"
 file = "principles/P-008-reliability-over-novelty.md"
 
 [[principle]]
@@ -81,6 +89,7 @@ slug = "small-and-focused"
 title = "Small and focused"
 tags = ["scope", "composition", "single-responsibility"]
 tier = "core"
+group = "Minimalism & scope"
 file = "principles/P-009-small-and-focused.md"
 
 [[principle]]
@@ -89,6 +98,7 @@ slug = "human-sets-direction-agents-execute"
 title = "Human sets direction, agents execute"
 tags = ["human-in-the-loop", "agents", "control-plane"]
 tier = "core"
+group = "Reliability & control"
 file = "principles/P-010-human-sets-direction-agents-execute.md"
 
 [[principle]]
@@ -97,6 +107,7 @@ slug = "research-before-new-repo"
 title = "Research before creating a new repo"
 tags = ["research-gate", "reuse", "graduation"]
 tier = "extended"
+group = "Reuse & research"
 file = "principles/P-011-research-before-new-repo.md"
 
 [[principle]]
@@ -105,6 +116,7 @@ slug = "canonical-files-plain"
 title = "Canonical files are plain markdown/JSON"
 tags = ["agent", "portability", "canonical"]
 tier = "core"
+group = "Portability & lock-in"
 file = "principles/P-012-canonical-files-plain.md"
 
 [[principle]]
@@ -113,6 +125,7 @@ slug = "adapters-only-harness-aware"
 title = "Adapters are the only harness-aware code"
 tags = ["agent", "adapters", "separation"]
 tier = "core"
+group = "Portability & lock-in"
 file = "principles/P-013-adapters-only-harness-aware.md"
 
 [[principle]]
@@ -121,6 +134,7 @@ slug = "skills-declare-capabilities"
 title = "Skills declare their capabilities"
 tags = ["agent", "skills", "capabilities"]
 tier = "core"
+group = "Agent capabilities"
 file = "principles/P-014-skills-declare-capabilities.md"
 
 [[principle]]
@@ -129,6 +143,7 @@ slug = "no-secrets-in-shared-memory"
 title = "Never store secrets in shared memory"
 tags = ["security", "memory", "secrets"]
 tier = "extended"
+group = "Security"
 file = "principles/P-015-no-secrets-in-shared-memory.md"
 
 [[principle]]
@@ -137,6 +152,7 @@ slug = "scan-secrets-before-commit"
 title = "Scan for secrets before committing"
 tags = ["security", "git", "secrets"]
 tier = "extended"
+group = "Security"
 file = "principles/P-016-scan-secrets-before-commit.md"
 
 [[principle]]
@@ -145,6 +161,7 @@ slug = "durable-changes-announced"
 title = "Durable changes are announced"
 tags = ["coordination", "memory", "communication"]
 tier = "core"
+group = "Coordination"
 file = "principles/P-017-durable-changes-announced.md"
 
 [[principle]]
@@ -153,6 +170,7 @@ slug = "forager-only-forages"
 title = "Forager only forages"
 tags = ["scope", "forager", "single-responsibility"]
 tier = "extended"
+group = "Minimalism & scope"
 file = "principles/P-018-forager-only-forages.md"
 
 [[principle]]
@@ -161,6 +179,7 @@ slug = "manual-keys-no-signup"
 title = "Keys are manual; never sign up on behalf of the user"
 tags = ["auth", "consent", "forager"]
 tier = "extended"
+group = "Auth & consent"
 file = "principles/P-019-manual-keys-no-signup.md"
 
 [[principle]]
@@ -169,6 +188,7 @@ slug = "cli-conventions"
 title = "CLIs follow open conventions"
 tags = ["cli", "conventions", "ux"]
 tier = "core"
+group = "CLI"
 file = "principles/P-020-cli-conventions.md"
 
 [[principle]]
@@ -177,6 +197,7 @@ slug = "research-gate-before-code"
 title = "Research gate before feature code"
 tags = ["research", "reuse", "prior-art"]
 tier = "extended"
+group = "Reuse & research"
 file = "principles/P-021-research-gate-before-code.md"
 
 [[principle]]
@@ -185,4 +206,5 @@ slug = "graceful-degradation"
 title = "Degrade gracefully"
 tags = ["robustness", "capabilities", "fallback"]
 tier = "core"
+group = "Portability & lock-in"
 file = "principles/P-022-graceful-degradation.md"

@@ -5,6 +5,7 @@ title: Canonical files are plain markdown/JSON
 version: 1.2.0
 tags: [agent, portability, canonical]
 tier: core
+group: Portability & lock-in
 ---
 
 # P-012 — Canonical files are plain markdown/JSON

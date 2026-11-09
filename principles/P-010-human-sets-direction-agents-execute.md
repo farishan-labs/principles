@@ -5,6 +5,7 @@ title: Human sets direction, agents execute
 version: 1.0.0
 tags: [human-in-the-loop, agents, control-plane]
 tier: core
+group: Reliability & control
 ---
 
 # P-010 — Human sets direction, agents execute

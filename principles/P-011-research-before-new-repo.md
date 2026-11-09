@@ -5,6 +5,7 @@ title: Research before creating a new repo
 version: 1.1.0
 tags: [research-gate, reuse, graduation]
 tier: extended
+group: Reuse & research
 ---
 
 # P-011 — Research before creating a new repo

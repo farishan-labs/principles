@@ -1,0 +1,28 @@
+name: Validate principles
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate
+        run: bash scripts/validate.sh
+      - name: Render PRINCIPLES.md
+        run: bash scripts/render.sh
+      - name: Render TOP_PRINCIPLES.md
+        run: bash scripts/render-top.sh
+      - name: Ensure derived files are committed
+        run: |
+          if ! git diff --exit-code; then
+            echo "::error::Derived files (PRINCIPLES.md, TOP_PRINCIPLES.md) are out of date. Run scripts/render.sh and scripts/render-top.sh and commit."
+            exit 1
+          fi

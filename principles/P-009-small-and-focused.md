@@ -5,6 +5,7 @@ title: Small and focused
 version: 1.0.0
 tags: [scope, composition, single-responsibility]
 tier: core
+group: Minimalism & scope
 ---
 
 # P-009 — Small and focused

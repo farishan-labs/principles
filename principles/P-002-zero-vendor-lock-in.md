@@ -5,6 +5,7 @@ title: Zero vendor lock-in
 version: 1.0.0
 tags: [portability, open-formats, self-hostable]
 tier: top
+group: Portability & lock-in
 ---
 
 # P-002 — Zero vendor lock-in

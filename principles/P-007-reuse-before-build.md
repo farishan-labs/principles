@@ -5,6 +5,7 @@ title: Reuse before build
 version: 1.0.0
 tags: [reuse, research-gate, composition]
 tier: core
+group: Reuse & research
 ---
 
 # P-007 — Reuse before build

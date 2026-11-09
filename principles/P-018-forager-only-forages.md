@@ -5,6 +5,7 @@ title: Forager only forages
 version: 1.2.0
 tags: [scope, forager, single-responsibility]
 tier: extended
+group: Minimalism & scope
 ---
 
 # P-018 — Forager only forages
