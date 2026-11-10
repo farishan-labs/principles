@@ -4,6 +4,25 @@ All notable changes to the Faris Han Labs principles set are documented here.
 Versioning follows [SemVer](https://semver.org/): MAJOR for rewording/removal
 that breaks downstream consumers, MINOR for additions, PATCH for clarifications.
 
+## [2.1.0] - 2026-11-10
+
+### Added
+- **P-024 (Single source, no drift)**: avoid derived doc drift; prefer one
+  canonical source or generated output.
+
+## [2.0.0] - 2026-11-10
+
+### Changed
+- **P-006 (Open and shared)** redefined: default copyleft (GPL-3.0) for
+  community editions; Apache-2.0 or paid commercial license for sponsor/
+  commercial editions. Supersedes the previous "Apache-2.0 for everything".
+- Added `docs/LICENSING.md`: full FHL licensing guideline (dual-licensing,
+  derivative works, product/content terms, enforcement, DCO, trademark).
+
+### Added
+- **P-023 (Licensing tiers and dual-licensing)**: core principle codifying the
+  tiered licensing model and per-repo decision criteria.
+
 ## [1.3.1] - 2026-11-10
 
 ### Changed

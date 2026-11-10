@@ -60,7 +60,7 @@ file = "principles/P-005-single-static-binary.md"
 id = "P-006"
 slug = "open-and-shared"
 title = "Open and shared"
-tags = ["open-source", "apache-2.0", "forking"]
+tags = ["open-source", "licensing", "dual-license", "gpl", "apache-2.0"]
 tier = "top"
 group = "Distribution"
 file = "principles/P-006-open-and-shared.md"
@@ -208,3 +208,21 @@ tags = ["robustness", "capabilities", "fallback"]
 tier = "core"
 group = "Portability & lock-in"
 file = "principles/P-022-graceful-degradation.md"
+
+[[principle]]
+id = "P-023"
+slug = "licensing-tiers"
+title = "Licensing tiers and dual-licensing"
+tags = ["licensing", "gpl", "apache-2.0", "dual-license", "commercial"]
+tier = "core"
+group = "Distribution"
+file = "principles/P-023-licensing-tiers.md"
+
+[[principle]]
+id = "P-024"
+slug = "single-source-no-drift"
+title = "Single source, no drift"
+tags = ["docs", "single-source", "drift", "derived-files"]
+tier = "core"
+group = "Documentation & drift"
+file = "principles/P-024-single-source-no-drift.md"

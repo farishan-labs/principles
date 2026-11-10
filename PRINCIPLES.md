@@ -64,12 +64,20 @@ tool trivially portable across machines and CI.
 
 ## P-006 — Open and shared
 
-Apache-2.0. Others self-host and fork freely.
+Open by default, but terms are tiered: community editions ship under
+GPL-3.0 (copyleft); commercial editions and sponsor-attracting building
+blocks ship under Apache-2.0 or a paid commercial license. Hiding the whole
+lab behind closed licensing is not allowed; monetization happens through
+dual licensing and paid assets, not by locking up the core.
 
 **Rationale.** Open licensing maximises reuse, contribution, and longevity.
-Closed licensing contradicts "zero vendor lock-in".
+Copyleft keeps derivatives open and forces companies to pay for proprietary
+use; permissive/commercial terms let sponsors and paying customers embed FHL
+code in proprietary products. Closed licensing contradicts "zero vendor
+lock-in".
 
-**Applies to.** Every tool and feature in the lab.
+**Applies to.** Every tool and feature in the lab. See `docs/LICENSING.md`
+for the full tier matrix, dual-licensing rules, and product terms.
 
 ## P-007 — Reuse before build
 
@@ -234,3 +242,28 @@ back rather than fail. Never assume every environment has everything.
 dependencies on optional capabilities break portability (P-002).
 
 **Applies to.** Every tool and feature in the lab.
+
+## P-023 — Licensing tiers and dual-licensing
+
+Default to GPL-3.0 for community editions. Offer a commercial license
+(Apache-2.0 or proprietary) for paid or sponsor-facing editions. Decide per
+repo using the criteria in `docs/LICENSING.md`; document the choice in the
+repo's `LICENSE` and `README`.
+
+**Rationale.** Copyleft protects the commons and forces companies to pay for
+proprietary use; permissive/commercial terms attract sponsors and fund work.
+Dual licensing keeps one codebase serving both goals.
+
+**Applies to.** All repos and paid products. See `docs/LICENSING.md`.
+
+## P-024 — Single source, no drift
+
+Derived copies of a document drift. Prefer a single canonical source and
+link to it; if a copy is unavoidable, regenerate it automatically or
+remove it. Never maintain parallel hand-edited versions of the same content.
+
+**Rationale.** Parallel copies diverge silently, producing conflicting
+guidance and wasted reconciliation effort. One source (or generated output)
+keeps truth singular.
+
+**Applies to.** Docs, READMEs, derived principle files, generated configs.
