@@ -5,3 +5,7 @@ Thumbs.db
 
 # Local
 *.log
+
+# secrets
+.env
+.env.*

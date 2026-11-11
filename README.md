@@ -1,5 +1,8 @@
 # Faris Han Labs — Principles
 
+![License](https://img.shields.io/github/license/farishan-labs/principles) ![Stars](https://img.shields.io/github/stars/farishan-labs/principles)
+
+
 Canonical, versioned principles for the Faris Han Labs. Source of truth for
 cockpit and every tool built under the lab.
 
@@ -55,3 +58,9 @@ git submodule update --init --recursive   # first time
 ## License
 
 Apache-2.0. See `LICENSE`.
+
+## Installation
+
+```bash
+git clone https://github.com/farishan-labs/principles.git
+```
