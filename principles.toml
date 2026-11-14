@@ -226,3 +226,12 @@ tags = ["docs", "single-source", "drift", "derived-files"]
 tier = "core"
 group = "Documentation & drift"
 file = "principles/P-024-single-source-no-drift.md"
+
+[[principle]]
+id = "P-025"
+slug = "binary-install-uninstall"
+title = "Binaries ship install/uninstall targets"
+tags = ["cli", "distribution", "install", "uninstall"]
+tier = "core"
+group = "Distribution"
+file = "principles/P-025-binary-install-uninstall.md"
